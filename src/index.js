@@ -1,9 +1,10 @@
 import React  from 'react'
 import PropTypes  from 'prop-types'
+import createReactClass from 'create-react-class'
 import { findDOMNode } from 'react-dom'
 import assign from 'object-assign'
 
-export default React.createClass({
+export default createReactClass({
 
   displayName: 'Field',
 
@@ -33,7 +34,9 @@ export default React.createClass({
 
     delete inputProps.stopChangePropagation
 
-    return <input {...inputProps} onChange={onChange} ref="input"/>
+    return (
+      <input {...inputProps} onChange={onChange} ref="input"/>
+    )
   },
 
   focus(){

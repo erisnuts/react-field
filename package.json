@@ -57,7 +57,7 @@
     "rimraf": "^2.5.2",
     "style-loader": "^0.12.4",
     "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.11.0"
+    "webpack-dev-server": "^3.1.11"
   },
   "homepage": "https://github.com/zippyui/react-field#readme",
   "keywords": [
